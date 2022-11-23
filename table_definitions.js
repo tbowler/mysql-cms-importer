@@ -43,7 +43,7 @@ export default {
       'affiliation_address_country',
       'affiliation_address_postal_code',
     ],
-    ending: 'INNODB',
+    engine: 'INNODB',
   },
   npiData: {
     name: 'npi_data',
@@ -725,7 +725,7 @@ export default {
       'provider_other_org_name',
       'provider_other_org_type_code',
     ],
-    ending: 'INNODB',
+    engine: 'INNODB',
   },
   npiPractice: {
     name: 'npi_practice',
@@ -753,6 +753,6 @@ export default {
       'provider_secondary_location_address_telephone_extension',
       'provider_location_address_fax_number',
     ],
-    ending: 'INNODB',
+    engine: 'INNODB',
   },
 };
