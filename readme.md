@@ -32,16 +32,16 @@ To import cms files into mysql
 ### Commands
 
 > Import NPI Endpoints
-> `node index.js --host=localhost --user=loader --password=Meshcare112 --database=dir_data --fileType=npiEndpoints --filePath=/Users/<LOGGED IN USER>/Downloads/NPPES_Data_Dissemination_November_2022/endpoint_pfile_20050523-20221113.csv`
+> `node index.js --host=localhost --user=loader --password=password123 --database=dir_data --fileType=npiEndpoints --filePath=/Users/<LOGGED IN USER>/Downloads/NPPES_Data_Dissemination_November_2022/endpoint_pfile_20050523-20221113.csv`
 
 > Import NPI Data **NOT COMPLETE**
-> `node index.js --host=localhost --user=loader --password=Meshcare112 --database=dir_data --fileType=npiData --filePath=/Users/<LOGGED IN USER>/Downloads/NPPES_Data_Dissemination_November_2022/npidata_pfile_20050523-20221113.csv`
+> `node index.js --host=localhost --user=loader --password=password123 --database=dir_data --fileType=npiData --filePath=/Users/<LOGGED IN USER>/Downloads/NPPES_Data_Dissemination_November_2022/npidata_pfile_20050523-20221113.csv`
 
 > Import NPI npiOther
-> `node index.js --host=localhost --user=loader --password=Meshcare112 --database=dir_data --fileType=npiOther --filePath=/Users/<LOGGED IN USER>/Downloads/NPPES_Data_Dissemination_November_2022/othername_pfile_20050523-20221113.csv`
+> `node index.js --host=localhost --user=loader --password=password123 --database=dir_data --fileType=npiOther --filePath=/Users/<LOGGED IN USER>/Downloads/NPPES_Data_Dissemination_November_2022/othername_pfile_20050523-20221113.csv`
 
 > Import NPI npiPractice
-> `node index.js --host=localhost --user=loader --password=Meshcare112 --database=dir_data --fileType=npiPractice --filePath=/Users/<LOGGED IN USER>/Downloads/NPPES_Data_Dissemination_November_2022/pl_pfile_20050523-20221113.csv`
+> `node index.js --host=localhost --user=loader --password=password123 --database=dir_data --fileType=npiPractice --filePath=/Users/<LOGGED IN USER>/Downloads/NPPES_Data_Dissemination_November_2022/pl_pfile_20050523-20221113.csv`
 
 
 ### Load Times Running Against Localhost
